@@ -5,7 +5,7 @@ const BigProject = () => {
     <section className="py-[12vh] px-10 md:px-36  ">
       <div className="container   max-w-[1160px] mx-auto ">
         <h2 className="text-4xl font-black text-center">Projetos</h2>
-        <div className="w-[962px] mx-auto mt-10">
+        <div className="md:w-[962px] mx-auto mt-10">
           <div className="flex gap-2 items-center w-full h-[40px] border-4 border-black mx-auto">
             <div className="ms-2 w-4 h-4 rounded-full bg-black"></div>
             <div className="w-4 h-4 rounded-full bg-black"></div>

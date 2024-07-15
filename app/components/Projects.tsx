@@ -4,9 +4,9 @@ import ComputerScreen from "./ComputerScreen";
 const Projects = () => {
   return (
     <section className="py-[12vh] px-10 md:px-36">
-      <div className="container flex   max-w-[1160px] mx-auto ">
+      <div className="container md:flex   max-w-[1160px] mx-auto ">
         <ComputerScreen />
-        <div className="ms-[130px]">
+        <div className="md:ms-[130px]">
           <h3 className="text-2xl font-bold">Projeto dashboard intranet</h3>
           <p className="mt-5">
             Desenvolvi um dashboard interno para a empresa utilizando Next.js,
@@ -21,7 +21,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="container flex   max-w-[1160px] mx-auto mt-40">
+      <div className="container  md:flex   max-w-[1160px] mx-auto mt-40">
         <div className="me-[130px]">
           <h3 className="text-2xl font-bold">Projeto pesquisa de domínios</h3>
           <p className="mt-5">
@@ -38,9 +38,9 @@ const Projects = () => {
         <ComputerScreen />
       </div>
 
-      <div className="container flex   max-w-[1160px] mx-auto mt-40">
+      <div className="container  md:flex   max-w-[1160px] mx-auto mt-40">
         <ComputerScreen />
-        <div className="ms-[130px]">
+        <div className="md:ms-[130px]">
           <h3 className="text-2xl font-bold">Pokédex</h3>
           <p className="mt-5">
             A criação de uma Pokédex foi um dos meus primeiros projetos de
@@ -52,7 +52,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="container flex   max-w-[1160px] mx-auto mt-40">
+      <div className="container  md:flex   max-w-[1160px] mx-auto mt-40">
         <div className="me-[130px]">
           <h3 className="text-2xl font-bold">Template Next.js Chat App</h3>
           <p className="mt-5">

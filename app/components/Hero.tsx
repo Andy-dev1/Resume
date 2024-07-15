@@ -29,7 +29,7 @@ const Hero = () => {
           </p>
 
           <a
-            className="font-semibold text-xl py-4 px-14 border-4 border-black mt-12 inline-block hover:bg-black hover:text-white"
+            className="font-semibold text-sm md:text-xl py-4 px-14 border-4 border-black mt-12 inline-block hover:bg-black hover:text-white"
             href="#"
           >
             Entrar em contato
@@ -42,6 +42,7 @@ const Hero = () => {
             width={"396"}
             height={"568"}
             src="/static/images/picture.png"
+            className="hidden md:block"
           />
         </div>
       </div>
