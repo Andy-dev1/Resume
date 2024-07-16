@@ -4,9 +4,9 @@ import ComputerScreen from "./ComputerScreen";
 const Projects = () => {
   return (
     <section className="py-[12vh] px-10 md:px-36">
-      <div className="container md:flex   max-w-[1160px] mx-auto ">
+      <div className="container lg:flex   max-w-[1160px] mx-auto ">
         <ComputerScreen />
-        <div className="md:ms-[130px]">
+        <div className="lg:ms-[130px] mt-4 lg:mt-0">
           <h3 className="text-2xl font-bold">Projeto dashboard intranet</h3>
           <p className="mt-5">
             Desenvolvi um dashboard interno para a empresa utilizando Next.js,
@@ -21,8 +21,9 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="container  md:flex   max-w-[1160px] mx-auto mt-40">
-        <div className="me-[130px]">
+      <div className="container  lg:flex lg:flex-row-reverse   max-w-[1160px] mx-auto mt-40">
+        <ComputerScreen />
+        <div className="lg:me-[130px] mt-4 lg:mt-0">
           <h3 className="text-2xl font-bold">Projeto pesquisa de domínios</h3>
           <p className="mt-5">
             Um dos meus primeiros projetos na empresa foi a criação de uma
@@ -35,12 +36,11 @@ const Projects = () => {
             satisfação dos clientes e a eficiência operacional da empresa.
           </p>
         </div>
-        <ComputerScreen />
       </div>
 
-      <div className="container  md:flex   max-w-[1160px] mx-auto mt-40">
+      <div className="container  lg:flex   max-w-[1160px] mx-auto mt-40">
         <ComputerScreen />
-        <div className="md:ms-[130px]">
+        <div className="lg:ms-[130px] mt-4 lg:mt-0">
           <h3 className="text-2xl font-bold">Pokédex</h3>
           <p className="mt-5">
             A criação de uma Pokédex foi um dos meus primeiros projetos de
@@ -52,8 +52,9 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="container  md:flex   max-w-[1160px] mx-auto mt-40">
-        <div className="me-[130px]">
+      <div className="container  lg:flex lg:flex-row-reverse   max-w-[1160px] mx-auto mt-40">
+        <ComputerScreen />
+        <div className="lg:me-[130px] mt-4 lg:mt-0">
           <h3 className="text-2xl font-bold">Template Next.js Chat App</h3>
           <p className="mt-5">
             Desenvolvi um template em Next.js baseado em uma aplicação de chat,
@@ -67,7 +68,6 @@ const Projects = () => {
             aplicar estratégias eficazes de otimização.
           </p>
         </div>
-        <ComputerScreen />
       </div>
     </section>
   );

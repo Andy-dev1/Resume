@@ -3,15 +3,15 @@ import React from "react";
 const BigProject = () => {
   return (
     <section className="py-[12vh] px-10 md:px-36  ">
-      <div className="container   max-w-[1160px] mx-auto ">
+      <div className="container  lg:max-w-[60%]  mx-auto ">
         <h2 className="text-4xl font-black text-center">Projetos</h2>
-        <div className="md:w-[962px] mx-auto mt-10">
+        <div className=" mx-auto mt-10">
           <div className="flex gap-2 items-center w-full h-[40px] border-4 border-black mx-auto">
             <div className="ms-2 w-4 h-4 rounded-full bg-black"></div>
             <div className="w-4 h-4 rounded-full bg-black"></div>
             <div className="w-4 h-4 rounded-full bg-black"></div>
           </div>
-          <div className="w-full h-[612px] border-x-4 border-b-4 border-black mx-auto"></div>
+          <div className="w-full h-[20vh]  md:h-[40vh] xl:h-[60vh] border-x-4 border-b-4 border-black mx-auto"></div>
         </div>
         <div className="max-w-[962px] mx-auto mt-24">
           <h3 className="text-2xl font-bold">Projeto de automação sisu</h3>
