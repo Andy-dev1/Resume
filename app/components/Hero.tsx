@@ -42,7 +42,7 @@ const Hero = () => {
             width={"396"}
             height={"568"}
             src="/static/images/picture.png"
-            className="hidden md:block"
+            className="hidden lg:block"
           />
         </div>
       </div>

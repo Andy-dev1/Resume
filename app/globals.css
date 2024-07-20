@@ -21,8 +21,11 @@ body {
   color: var(--foreground-rgb);
   background: var(--background-white);
 }
-
-h1,h2,h3{
+.text-stroke-3 {
+  text-shadow: -2px -2px 0 rgba(0, 0, 0, 15%), 2px -2px 0 rgba(0, 0, 0, 15%), -2px 2px 0 rgba(0, 0, 0, 15%), 2px 2px 0 rgba(0, 0, 0, 15%);
+  
+}
+h1,h2,h3,h4{
   font-family: "Cinzel", serif;
   font-optical-sizing: auto;
   font-weight: 400;
