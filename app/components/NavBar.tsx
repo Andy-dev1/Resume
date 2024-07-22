@@ -1,4 +1,5 @@
-import React from "react";
+
+import Menu from "./Menu";
 
 const NavBar = () => {
   return (
@@ -37,6 +38,7 @@ const NavBar = () => {
             </li>
           </ul>
         </div>
+        <Menu/>
       </nav>
     </header>
   );

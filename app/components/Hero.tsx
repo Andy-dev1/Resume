@@ -30,7 +30,7 @@ const Hero = () => {
 
           <a
             className="font-semibold text-sm md:text-xl py-4 px-14 border-4 border-black mt-[4vh] lg:mt-12 inline-block hover:bg-black hover:text-white"
-            href="#"
+            href="#contact"
           >
             Entrar em contato
           </a>

@@ -18,17 +18,17 @@ const Contact = () => {
               </p>
             </div>
             <div className="mt-4 flex flex-col">
-              <a href="" className="flex items-center gap-2">
-                <MdEmail className="text-2xl" />
+              <a href="" className="flex items-center gap-2 text-sm">
+                <MdEmail className=" sm:text-2xl hidden sm:block" />
                 contato@contato.com.br
               </a>
-              <a href="" className="flex items-center gap-2">
-                <FaLinkedin className="text-2xl" />{" "}
+              <a href="" className="flex text-sm  items-center gap-2">
+                <FaLinkedin className=" sm:text-2xl hidden sm:block" />{" "}
                 https://www.linkedin.com/in/andreslemos/
               </a>
             </div>
           </div>
-          <div className="mt-10 ">
+          <div className="mt-10 lg:mt-0">
             <form action="#" method="post" className="flex flex-col">
               <div className="flex flex-col lg:flex-row">
                 <input

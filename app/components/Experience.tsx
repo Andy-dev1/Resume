@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Experience = () => {
@@ -5,8 +6,8 @@ const Experience = () => {
     <section className="py-[6vh]  px-10 lg:px-36 " id="experience">
       <div className="  container max-w-[1160px] mx-auto">
         <div className="lg:flex ">
-          <div className="lg:h-[710px]  lg:w-[24%]">
-            <div className="w-[100%] h-[60%] lg:border-4 lg:border-black ps-[34px] py-[19px]">
+          <div className="xl:h-[710px]  lg:w-[24%]">
+            <div className="w-[100%] h-[60%] lg:border-4 lg:border-black lg:ps-[34px] py-[19px]">
               <h4 className="font-bold text-2xl mb-5">Educação</h4>
               <div className="mb-4">
                 <p className="font-bold leading-none">Análise de Sistemas</p>
@@ -27,10 +28,12 @@ const Experience = () => {
                 </p>
               </div>
             </div>
-            <div className="hidden lg:block w-[100%] bg-blue-400 h-[40%] border-b-4 border-black border-x-4"></div>
+            <div className="hidden lg:block w-[100%]  h-[40%] border-b-4 border-black border-x-4">
+              <Image draggable={false} className="xl:-translate-x-20 xl:-translate-y-20 scale-150" alt="soft skills" src='/static/images/soft.png' width={407} height={325}/>
+            </div>
           </div>
-          <div className="w-full lg:h-[710px] lg:w-[76%]">
-            <div className="pe-28 lg:w-[100%] h-[80%] lg:border-y-4 lg:border-r-4 border-black ps-[34px] py-[19px]">
+          <div className="w-full xl:h-[710px] lg:w-[76%]">
+            <div className="lg:pe-28 lg:w-[100%] xl:h-[80%] lg:border-y-4 lg:border-r-4 border-black lg:ps-[34px] py-[19px]">
               <h4 className="w-full font-bold text-2xl mb-5">Experiência</h4>
               <div className="mb-4">
                 <p className="font-bold leading-none">
@@ -68,8 +71,8 @@ const Experience = () => {
                 </p>
               </div>
             </div>
-            <div className="hidden lg:block  h-[20%] w-[100%] border-b-4 border-r-4 border-black">
-                <h1 className="font-black text-[147px] leading-none text-stroke-3 text-[#DDDCDA] ">PROGRESS</h1>
+            <div className="hidden lg:block  xl:h-[20%] w-[100%] border-b-4 border-r-4 border-black bg-[url('/static/images/progress.png')] bg-[length:881px_151px]">
+                {/* <h1 className="font-black text-[92px] xl:text-[147px] leading-none text-stroke-3 text-[#DDDCDA] ">PROGRESS</h1> */}
             </div>
           </div>
         </div>

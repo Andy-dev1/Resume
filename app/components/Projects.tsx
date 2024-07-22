@@ -21,7 +21,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="container  lg:flex lg:flex-row-reverse   max-w-[1160px] mx-auto mt-40">
+      <div className="container  lg:flex lg:flex-row-reverse   max-w-[1160px] mx-auto mt-20 lg:mt-40">
         <ComputerScreen />
         <div className="lg:me-[130px] mt-4 lg:mt-0">
           <h3 className="text-2xl font-bold">Projeto pesquisa de domínios</h3>
@@ -38,7 +38,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="container  lg:flex   max-w-[1160px] mx-auto mt-40">
+      <div className="container  lg:flex   max-w-[1160px] mx-auto mt-20 lg:mt-40">
         <ComputerScreen />
         <div className="lg:ms-[130px] mt-4 lg:mt-0">
           <h3 className="text-2xl font-bold">Pokédex</h3>
@@ -52,7 +52,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="container  lg:flex lg:flex-row-reverse   max-w-[1160px] mx-auto mt-40">
+      <div className="container  lg:flex lg:flex-row-reverse   max-w-[1160px] mx-auto mt-20 lg:mt-40">
         <ComputerScreen />
         <div className="lg:me-[130px] mt-4 lg:mt-0">
           <h3 className="text-2xl font-bold">Template Next.js Chat App</h3>
