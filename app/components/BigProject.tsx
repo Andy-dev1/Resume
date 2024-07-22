@@ -2,7 +2,7 @@ import React from "react";
 
 const BigProject = () => {
   return (
-    <section className="py-[12vh] px-10 md:px-36  ">
+    <section className="py-[12vh] px-10 md:px-36" id="projects">
       <div className="container  lg:max-w-[60%]  mx-auto ">
         <h2 className="text-4xl font-black text-center">Projetos</h2>
         <div className=" mx-auto mt-10">

@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="bg-[#0F0F0F] py-[4vh] lg:py-[12vh] px-10 md:px-36  ">
       {/* First footer */}
-      <div className="container flex justify-between max-w-[1160px] mx-auto">
+      <div className="container lg:flex justify-between max-w-[1160px] mx-auto">
         <div>
           <h1 className=" text-[#EAE9E7] text-[40px] leading-10 font-black">
             ANDRE

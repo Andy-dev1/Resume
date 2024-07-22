@@ -11,10 +11,10 @@ import { MdAutoGraph } from "react-icons/md";
 
 const Skills = () => {
   return (
-    <section className="py-[6vh] bg-black bg-opacity-5 px-10 lg:px-36 border-y-4 border-black">
+    <section className="py-[6vh] bg-black bg-opacity-5 px-10 lg:px-36 border-y-4 border-black" id="skills">
       <div className="flex flex-col  justify-center items-center container max-w-[1160px] mx-auto">
         <h3 className="text-4xl font-black text-center">Skills</h3>
-        <div className=" lg:flex mt-14 ">
+        <div className=" lg:flex mt-14 w-full justify-between">
           <div className="w-[198px] h-[61px] border-4 border-black flex items-center mb-2 lg:mb-0">
             <div className="w-[53px] h-[53px] bg-black flex justify-center items-center ">
               <RiReactjsLine className="text-white text-4xl -translate-x-[1px]" />
@@ -24,7 +24,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="lg:ms-10 w-[198px] h-[61px] border-4 border-black flex items-center mb-2 lg:mb-0">
+          <div className=" w-[198px] h-[61px] border-4 border-black flex items-center mb-2 lg:mb-0">
             <div className="w-[53px] h-[53px] bg-black flex justify-center items-center ">
               <RiReactjsLine className="text-white text-4xl -translate-x-[1px]" />
             </div>
@@ -33,7 +33,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="lg:ms-10 w-[198px] h-[61px] border-4 border-black flex items-center mb-2 lg:mb-0">
+          <div className=" w-[198px] h-[61px] border-4 border-black flex items-center mb-2 lg:mb-0">
             <div className="w-[53px] h-[53px] bg-black flex justify-center items-center ">
               <IoLogoJavascript className="text-white text-3xl -translate-x-[1px]" />
             </div>
@@ -42,7 +42,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="lg:ms-10 w-[198px] h-[61px] border-4 border-black flex items-center mb-2 lg:mb-0">
+          <div className=" w-[198px] h-[61px] border-4 border-black flex items-center mb-2 lg:mb-0">
             <div className="w-[53px] h-[53px] bg-black flex justify-center items-center ">
               <TbBrandTypescript className="text-white text-4xl -translate-x-[1px]" />
             </div>
@@ -51,7 +51,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="lg:ms-10 w-[198px] h-[61px] border-4 border-black flex items-center mb-2 lg:mb-0">
+          <div className=" w-[198px] h-[61px] border-4 border-black flex items-center mb-2 lg:mb-0">
             <div className="w-[53px] h-[53px] bg-black flex justify-center items-center ">
               <BiLogoPhp className="text-white text-5xl -translate-x-[1px]" />
             </div>
@@ -61,7 +61,7 @@ const Skills = () => {
           </div>
         </div>
 
-        <div className="lg:flex lg:mt-4">
+        <div className="lg:flex mt-4 w-full justify-between">
           <div className="w-[198px] h-[61px] border-4 border-black flex items-center mb-2 lg:mb-0">
             <div className="w-[53px] h-[53px] bg-black flex justify-center items-center ">
               <DiJqueryLogo className="text-white text-4xl -translate-x-[1px]" />
@@ -71,7 +71,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="lg:ms-10 w-[198px] h-[61px] border-4 border-black flex items-center mb-2 lg:mb-0">
+          <div className=" w-[198px] h-[61px] border-4 border-black flex items-center mb-2 lg:mb-0">
             <div className="w-[53px] h-[53px] bg-black flex justify-center items-center ">
               <AiOutlineHtml5 className="text-white text-4xl -translate-x-[1px]" />
             </div>
@@ -80,7 +80,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="lg:ms-10 w-[198px] h-[61px] border-4 border-black flex items-center mb-2 lg:mb-0">
+          <div className=" w-[198px] h-[61px] border-4 border-black flex items-center mb-2 lg:mb-0">
             <div className="w-[53px] h-[53px] bg-black flex justify-center items-center ">
               <FaCss3 className="text-white text-3xl -translate-x-[1px]" />
             </div>
@@ -89,7 +89,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="lg:ms-10 w-[198px] h-[61px] border-4 border-black flex items-center mb-2 lg:mb-0">
+          <div className=" w-[198px] h-[61px] border-4 border-black flex items-center mb-2 lg:mb-0">
             <div className="w-[53px] h-[53px] bg-black flex justify-center items-center ">
               <FaWordpressSimple className="text-white text-4xl -translate-x-[1px]" />
             </div>
@@ -98,7 +98,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="lg:ms-10 w-[198px] h-[61px] border-4 border-black flex items-center mb-2 lg:mb-0">
+          <div className=" w-[198px] h-[61px] border-4 border-black flex items-center mb-2 lg:mb-0">
             <div className="w-[53px] h-[53px] bg-black flex justify-center items-center ">
               <MdAutoGraph className="text-white text-5xl -translate-x-[1px]" />
             </div>

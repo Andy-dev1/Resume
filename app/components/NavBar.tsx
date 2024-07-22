@@ -10,19 +10,19 @@ const NavBar = () => {
         <div className="hidden lg:block">
           <ul className="flex gap-x-10 font-semibold text-base items-center">
             <li>
-              <a className="group  transition duration-300" href="">
+              <a className="group  transition duration-300" href="#projects">
                 Projetos
                 <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-black"></span>
               </a>
             </li>
             <li>
-              <a className="group  transition duration-300" href="">
+              <a className="group  transition duration-300" href="#skills">
                 Skills{" "}
                 <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-black"></span>
               </a>
             </li>
             <li>
-              <a className="group  transition duration-300" href="">
+              <a className="group  transition duration-300" href="#experience">
                 Experiência
                 <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-black"></span>
               </a>
@@ -30,7 +30,7 @@ const NavBar = () => {
             <li>
               <a
                 className="border-2 border-black py-2 px-8 hover:bg-black hover:text-white"
-                href=""
+                href="#contact"
               >
                 Contato
               </a>
