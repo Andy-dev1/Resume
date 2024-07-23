@@ -36,13 +36,22 @@ const Hero = () => {
           </a>
         </div>
         {/* Second section */}
-        <div>
+        <div className="relative">
           <Image
             alt="My image"
             width={"396"}
             height={"568"}
             src="/static/images/picture.png"
-            className="hidden lg:block"
+            className="hidden lg:block relative z-10"
+            draggable={false}
+          />
+          <Image
+            alt="Wave shadow"
+            width={"396"}
+            height={"568"}
+            src="/static/images/wave-shadow.png"
+            className="hidden lg:block absolute top-10 left-10 z-0"
+            draggable={false}
           />
         </div>
       </div>

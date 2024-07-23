@@ -1,17 +1,19 @@
+import Image from "next/image";
 import React from "react";
 import { FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#0F0F0F] py-[4vh] lg:py-[12vh] px-10 md:px-36  ">
+    <footer className="bg-[#0F0F0F] py-[4vh] lg:py-[12vh] px-10 md:px-36   bg-[url('/static/images/wavefooter.png')] bg-no-repeat bg-[length:100%_100%] xl:bg-[length:45%_100%]">
       {/* First footer */}
       <div className="container lg:flex justify-between max-w-[1160px] mx-auto">
-        <div>
-          <h1 className=" text-[#EAE9E7] text-[40px] leading-10 font-black">
+        <div >
+          <h1 className=" text-[#EAE9E7] text-[40px] leading-10 font-black ">
             ANDRE
             <br />
             LEMOS
+            
           </h1>
         </div>
         <div>

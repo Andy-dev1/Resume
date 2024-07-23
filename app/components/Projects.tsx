@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <section className="py-[12vh] px-10 md:px-36">
       <div className="container lg:flex   max-w-[1160px] mx-auto ">
-        <ComputerScreen />
+        <ComputerScreen computerBgImage="bg-[url('/static/images/private.png')] bg-center"/>
         <div className="lg:ms-[130px] mt-4 lg:mt-0">
           <h3 className="text-2xl font-bold">Projeto dashboard intranet</h3>
           <p className="mt-5">
@@ -22,7 +22,7 @@ const Projects = () => {
       </div>
 
       <div className="container  lg:flex lg:flex-row-reverse   max-w-[1160px] mx-auto mt-20 lg:mt-40">
-        <ComputerScreen />
+        <ComputerScreen computerBgImage="bg-[url('/static/images/domain.png')] bg-cover"/>
         <div className="lg:me-[130px] mt-4 lg:mt-0">
           <h3 className="text-2xl font-bold">Projeto pesquisa de domínios</h3>
           <p className="mt-5">
@@ -39,7 +39,7 @@ const Projects = () => {
       </div>
 
       <div className="container  lg:flex   max-w-[1160px] mx-auto mt-20 lg:mt-40">
-        <ComputerScreen />
+        <ComputerScreen computerBgImage="bg-[url('/static/images/pokedex.png')] bg-cover"/>
         <div className="lg:ms-[130px] mt-4 lg:mt-0">
           <h3 className="text-2xl font-bold">Pokédex</h3>
           <p className="mt-5">
@@ -53,7 +53,7 @@ const Projects = () => {
       </div>
 
       <div className="container  lg:flex lg:flex-row-reverse   max-w-[1160px] mx-auto mt-20 lg:mt-40">
-        <ComputerScreen />
+        <ComputerScreen computerBgImage="bg-[url('/static/images/chat.png')] bg-cover"/>
         <div className="lg:me-[130px] mt-4 lg:mt-0">
           <h3 className="text-2xl font-bold">Template Next.js Chat App</h3>
           <p className="mt-5">
