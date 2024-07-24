@@ -19,11 +19,11 @@ const Footer = () => {
         <div>
           <div className="mt-4 flex flex-col">
             
-            <a href="" className="flex items-center gap-2 text-sm text-[#EAE9E7]">
+            <a href="mailto:contact@andrelemos.site" className="flex items-center gap-2 text-sm text-[#EAE9E7]">
               <MdEmail className=" sm:text-2xl hidden sm:block" />
-              contato@contato.com.br
+              contact@andrelemos.site
             </a>
-            <a href="" className="flex text-sm  items-center gap-2 text-[#EAE9E7]">
+            <a href="https://www.linkedin.com/in/andreslemos/" target="_blank" className="flex text-sm  items-center gap-2 text-[#EAE9E7]">
               <FaLinkedin className=" sm:text-2xl hidden sm:block" />{" "}
               https://www.linkedin.com/in/andreslemos/
             </a>
