@@ -1,9 +1,10 @@
 "use client"
+import { useTranslations } from "next-intl";
 import { useState } from "react";
 
 export default function Menu() {
   const [isNavOpen, setIsNavOpen] = useState(false);
-
+  const t= useTranslations('Header')
   return (
     <div className="flex items-center justify-between  py-8 lg:hidden">
       
@@ -66,32 +67,22 @@ export default function Menu() {
           </ul> */}
             <ul className="flex flex-col items-center justify-between min-h-[250px]">
               <li className="border-b border-gray-400 my-8 uppercase">
-                <a href="#projects"  onClick={() => setIsNavOpen((prev) => !prev)}>Projetos</a>
+                <a href="#projects"  onClick={() => setIsNavOpen((prev) => !prev)}> {t('projects')}</a>
               </li>
               <li className="border-b border-gray-400 my-8 uppercase">
-                <a href="#skills"  onClick={() => setIsNavOpen((prev) => !prev)}>Skills</a>
+                <a href="#skills"  onClick={() => setIsNavOpen((prev) => !prev)}> {t('skills')}</a>
               </li>
               <li className="border-b border-gray-400 my-8 uppercase">
-                <a href="#experience"  onClick={() => setIsNavOpen((prev) => !prev)}>Experiência</a>
+                <a href="#experience"  onClick={() => setIsNavOpen((prev) => !prev)}> {t('experience')}</a>
               </li>
               <li className="border-b border-gray-400 my-8 uppercase">
-                <a href="#contact"  onClick={() => setIsNavOpen((prev) => !prev)}>Contato</a>
+                <a href="#contact"  onClick={() => setIsNavOpen((prev) => !prev)}> {t('contact')}</a>
               </li>
             </ul>
           </div>
         </section>
 
-        <ul className="DESKTOP-MENU hidden space-x-8 lg:flex">
-          <li>
-            <a href="/about">About</a>
-          </li>
-          <li>
-            <a href="/portfolio">Portfolio</a>
-          </li>
-          <li>
-            <a href="/contact">Contact</a>
-          </li>
-        </ul>
+       
       </nav>
       <style>{`
       .hideMenuNav {

@@ -1,11 +1,14 @@
+"use client"
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import React from "react";
 
 const BigProject = () => {
+  const t = useTranslations("BigProject");
   return (
     <section className="py-[12vh] px-10 md:px-36" id="projects">
       <div className="container  lg:max-w-[60%]  mx-auto  ">
-        <h2 className="text-4xl font-black text-center">Projetos</h2>
+        <h2 className="text-4xl font-black text-center">{t('headerline')}</h2>
         <div className=" mx-auto mt-10 ">
           <div className="flex gap-2 items-center w-full h-[40px] border-4 border-black mx-auto">
             <div className="ms-2 w-4 h-4 rounded-full bg-black"></div>

@@ -1,0 +1,25 @@
+{
+  "HomePage": {
+    "helloWorld": "Olá mundo!"
+  },
+  "AboutPage": {
+    "aboutText": "Ceci est un site statique complètement traduit."
+  },
+  "Header": {
+    "projects": "Projetos",
+    "skills": "Habilidades",
+    "experience": "Experiência",
+    "contact": "Contato"
+  },
+  "Hero": {
+    "headline": "Cansado de mais do mesmo? <br />Você está no lugar certo!",
+    "herotext": "Desenvolvo soluções leves e com <strong>alto grau</strong> de <strong>engajamento</strong>.<br>Entre em contato e descubra como posso ajudar você a alcançar <br> seus objetivos e levar seu projeto ao <strong>próximo nível</strong>. <br>Estou ansioso para colaborar com você!",
+    "contact": "Entrar em contato"
+  },
+  "BigProject":{
+    "headerline":"Projetos"
+  },
+  "LocaleSwitcher": {
+    "locale": "{locale, select, pt {Português} en {Ingles} other {Desconhecido}}"
+  }
+}

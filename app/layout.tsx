@@ -1,22 +1,15 @@
-import type { Metadata } from "next";
-import { Open_Sans } from "next/font/google";
-import "./globals.css";
+// app/layout.tsx
 
-const openSans = Open_Sans({ subsets: ["latin"] });
+import {ReactNode} from 'react';
 
-export const metadata: Metadata = {
-  title: "Andre Lemos",
-  description: "Resume Website",
+
+type Props = {
+  children: ReactNode;
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
-  return (
-    <html lang="en" className="scroll-smooth">
-      <body className={openSans.className}>{children}</body>
-    </html>
-  );
+
+// Since we have a `not-found.tsx` page on the root, a layout file
+// is required, even if it's just passing children through.
+export default function RootLayout({children}: Props) {
+  return children;
 }
