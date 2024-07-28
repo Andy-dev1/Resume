@@ -1,21 +1,23 @@
+"use client"
 import React from "react";
 import { MdEmail } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
 import FormContact from "./FormContact";
+import { useTranslations } from "next-intl";
 const Contact = () => {
+  const t = useTranslations("Contact");
   return (
     <section className="py-[6vh]  px-10 lg:px-36" id="contact">
       <div className="  container max-w-[1160px] mx-auto">
-        <h2 className="text-4xl font-black text-center">FALE COMIGO</h2>
+        <h2 className="text-4xl font-black text-center">{t("contactMe")}</h2>
         <div className="mt-24 lg:flex justify-between">
           <div>
             <div>
               <h4 className="text-2xl  font-bold">
-                {" "}
-                Vamos fazer algo incrível juntos!
+                {t("contactTitle")}
               </h4>
               <p>
-                Sinta-se livre para falar comigo, estarei sempre à disposição.
+                {t("contactSubtitle")}
               </p>
             </div>
             <div className="mt-4 flex flex-col">

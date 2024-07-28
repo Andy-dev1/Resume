@@ -1,7 +1,10 @@
 "use client";
+import { useTranslations } from "next-intl";
 import React, { useState } from "react";
 
 export default function FormContact() {
+  const t = useTranslations("Contact");
+
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -70,7 +73,7 @@ export default function FormContact() {
             name="name"
             type="text"
             className="lg:w-[268px] h-[41px] border-black border-2 px-3"
-            placeholder="Seu Nome"
+            placeholder={t("yourNameForm")}
             value={formData.name}
             onChange={handleChange}
           />
@@ -78,7 +81,7 @@ export default function FormContact() {
             name="email"
             type="email"
             className="mt-4 lg:mt-0 lg:ms-[29px] lg:w-[268px] h-[41px] border-black border-2 px-3"
-            placeholder="Seu Email"
+            placeholder={t("yourEmailForm")}
             value={formData.email}
             onChange={handleChange}
           />
@@ -88,14 +91,14 @@ export default function FormContact() {
           name="subject"
           type="text"
           className="mt-4 lg:w-[565px] h-[41px] border-black border-2 px-3"
-          placeholder="Assunto"
+          placeholder={t("subjectForm")}
           value={formData.subject}
           onChange={handleChange}
         />
         <textarea
           name="message"
           className="mt-4 lg:w-[565px] py-[10px] border-black border-2 px-3"
-          placeholder="Mensagem"
+          placeholder={t("message")}
           rows={10}
           value={formData.message}
           onChange={handleChange}
@@ -103,6 +106,7 @@ export default function FormContact() {
         <input
           type="submit"
           className="cursor-pointer mt-4 lg:w-[565px] py-[10px] border-black border-4 px-3 font-semibold hover:bg-black hover:text-white"
+         value={t("send")}
         />
       </form>
 

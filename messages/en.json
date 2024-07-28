@@ -16,8 +16,41 @@
     "herotext": "I develop lightweight solutions with a <strong>high degree</strong> of <strong>engagement</strong>.<br> Get in touch and find out how I can help you achieve your goals and <br> take your project to the <strong>next level</strong>.<br> I am looking forward to collaborating with you!",
     "contact": "Contact me"
   },
-  "BigProject":{
-    "headerline":"Projects"
+  "BigProject": {
+    "headerline": "Projects",
+    "title": "SISU Automation Project",
+    "text": "I developed a desktop application using the Wails.js framework, with React.js on the front end and Golang on the back end, in addition to data storage with SQLite. <br /><br /> This application is designed to manage and distribute students approved through the SISU selection process, as well as create calls for the selected students. <br /><br /> The use of these technologies enabled the creation of an efficient, secure, and high-performance solution, significantly improving the student management and selection process, completely replacing the use of Excel by the university."
+  },
+  "Projects": {
+    "firstTitle": "Intranet Dashboard Project",
+    "firstText": "I developed an internal dashboard for the company using Next.js, TailwindCSS, and SWR. This application provides an intuitive and responsive interface, facilitating data management and optimization of internal processes. The use of cutting-edge technologies such as Next.js for the front end, TailwindCSS for styling, and SWR for efficient data management ensures superior performance and an enhanced user experience, increasing the company's productivity and operational efficiency.",
+    "secondTitle": "Domain Search Project",
+    "secondText": "One of my first projects at the company was the creation of a domain search page, developed with React.js and using advanced dependencies such as React Query. This solution enabled fast and efficient domain searches, significantly improving the user experience and streamlining internal processes. The use of React.js and React Query ensured optimized performance and a dynamic interface, contributing to customer satisfaction and the company's operational efficiency.",
+    "thirdTitle": "Pokédex",
+    "thirdText": "Creating a Pokédex was one of my first study projects, developed with React and complemented by advanced dependencies such as Bootstrap, React Query, and Redux. This project demonstrated my ability to integrate different technologies to build a rich and interactive application.",
+    "fourthTitle": "Template Next.js Chat App",
+    "fourthText": "I developed a Next.js template based on a chat application, using the latest design techniques and SEO implementation. This project not only demonstrates my ability to create modern and responsive interfaces but also my competence in optimizing the application's visibility and performance in search engines. The integration of best SEO practices ensures a superior user experience and maximizes the application's organic reach, highlighting my technical knowledge and my ability to apply effective optimization strategies."
+  },
+  "Experience": {
+    "educationTitle": "Education",
+    "firstEducation": "Systems Analysis",
+    "secondEducation": "Mathematics",
+    "thirdEducation": "Computer Science",
+    "experienceTitle": "Experience",
+    "firstExperienceTitle": "Hostnet-Internet (Dez/2022 - Present)",
+    "firstExperienceText": "Currently, I am responsible for the complete restructuring of the intranet application's front end, migrating its legacy PHP functionalities to Next.js. I use advanced state management dependencies like SWR, efficient styling with TailwindCSS, and secure typing with TypeScript. My work ensures a highly optimized final product with enhanced security, resulting in a superior user experience and robust performance.",
+    "secondExperienceSubtext": "Technical Support (Aug/2021 - Dec/2022)",
+    "secondExperienceText": "I was responsible for maintaining and enhancing legacy PHP code for hosted clients, as well as developing custom sites and modules using Beaver Builder and Elementor. I performed bug fixes in plugins, installed new plugins, and optimized WordPress sites, ensuring superior performance and customer satisfaction. I conducted email migrations with Imapsync and provided comprehensive technical support, offering quick and effective solutions to queries and issues, ensuring excellent service and customer loyalty."
+  },
+  "Contact": {
+    "contactMe": "CONTACT ME",
+    "contactTitle": "Let's create something amazing together!",
+    "contactSubtitle": "Feel free to reach out to me, I am always available.",
+    "yourNameForm": "Your Name",
+    "yourEmailForm": "Your Email",
+    "subjectForm": "Subject",
+    "message": "Message",
+    "send": "Submit"
   },
   "LocaleSwitcher": {
     "locale": "{locale, select, pt {Portuguese} en {English} other {Unknown}}"

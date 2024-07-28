@@ -17,7 +17,40 @@
     "contact": "Entrar em contato"
   },
   "BigProject":{
-    "headerline":"Projetos"
+    "headerline":"Projetos",
+    "title":"Projeto de automação sisu",
+    "text":"Desenvolvi uma aplicação desktop utilizando o framework Wails.js,com React.js no front-end e Golang no back-end, além do armazenamento de dados com SQLite. <br /><br />Esta aplicação é projetada para gerenciar e distribuir alunos aprovados pelo processo seletivo SISU, bem como criar chamadas para os alunos selecionados. <br /><br />O uso dessas tecnologias permitiu a criação de uma solução eficiente, segura e de alto desempenho, aprimorando significativamente o processo de gestão e seleção de alunos,substituindo totalmente a utilização do excel pela faculdade."
+  },
+  "Projects":{
+    "firstTitle":"Projeto dashboard intranet",
+    "firstText":"Desenvolvi um dashboard interno para a empresa utilizando Next.js, TailwindCSS e SWR. Essa aplicação proporciona uma interface intuitiva e responsiva, facilitando o gerenciamento de dados e otimização de processos internos. O uso de tecnologias de ponta como Next.js para o front-end, TailwindCSS para estilização e SWR para gerenciamento eficiente de dados garante um desempenho superior e uma experiência de usuário aprimorada, aumentando a produtividade e a eficiência operacional da empresa.",
+    "secondTitle":"Projeto pesquisa de domínios",
+    "secondText":"Um dos meus primeiros projetos na empresa foi a criação de uma página de pesquisa de domínios, desenvolvida com React.js e utilizando dependências avançadas como React Query. Esta solução permitiu uma busca rápida e eficiente de domínios, melhorando significativamente a experiência do usuário e agilizando os processos internos. O uso de React.js e React Query garantiu um desempenho otimizado e uma interface dinâmica, contribuindo para a satisfação dos clientes e a eficiência operacional da empresa.",
+    "thirdTitle":"Pokédex",
+    "thirdText":"A criação de uma Pokédex foi um dos meus primeiros projetos de estudo, desenvolvido com React e complementado por dependências avançadas como Bootstrap, React Query e Redux. Este projeto demonstrou minha capacidade de integrar diferentes tecnologias para construir uma aplicação rica e interativa.",
+    "fourthTitle":"Template Next.js Chat App",
+    "fourthText":"Desenvolvi um template em Next.js baseado em uma aplicação de chat, utilizando as mais recentes técnicas de design e implementação de SEO. Este projeto não só demonstra minha habilidade em criar interfaces modernas e responsivas, mas também minha competência em otimizar a visibilidade e desempenho da aplicação nos mecanismos de busca. A integração das melhores práticas de SEO assegura uma experiência de usuário superior e maximiza o alcance orgânico da aplicação, destacando meu conhecimento técnico e minha capacidade de aplicar estratégias eficazes de otimização."
+  },
+  "Experience":{
+    "educationTitle":"Educação",
+    "firstEducation":"Análise de Sistemas",
+    "secondEducation":"Matemática",
+    "thirdEducation":"C. da Computação",
+    "experienceTitle":"Experiência",
+    "firstExperienceTitle":"Hostnet-Internet (Dez/2022 - Presente)",
+    "firstExperienceText":"Atualmente, sou responsável pela reestruturação completa do front-end da aplicação da intranet, migrando suas funcionalidades legadas de PHP para Next.js. Utilizo dependências avançadas de gerenciamento de estado como SWR, estilizações eficientes com TailwindCSS e tipagem segura com TypeScript. Meu trabalho garante um produto final com alta otimização de componentes e segurança aprimorada, resultando em uma experiência de usuário superior e desempenho robusto.",
+    "secondExperienceSubtext":"Suporte Técnico (Ago/2021 - Dez/2022)",
+    "secondExperienceText":"Fui responsável pela manutenção e aprimoramento de código legado em PHP para clientes hospedados, além de desenvolver sites e módulos customizados utilizando Beaver Builder e Elementor. Realizei correções de bugs em plugins, instalação de novos plugins e otimização de sites em WordPress, garantindo desempenho superior e satisfação dos clientes. Conduzi migrações de e-mails com Imapsync e prestei suporte técnico abrangente, oferecendo soluções rápidas e eficazes para dúvidas e problemas, assegurando um atendimento de excelência e fidelização dos clientes."
+  },
+  "Contact":{
+    "contactMe":"FALE COMIGO",
+    "contactTitle":"Vamos fazer algo incrível juntos!",
+    "contactSubtitle":"Sinta-se livre para falar comigo, estarei sempre à disposição.",
+    "yourNameForm":"Seu Nome",
+    "yourEmailForm":"Seu Email",
+    "subjectForm":"Assunto",
+    "message":"Mensagem",
+    "send":"Enviar"
   },
   "LocaleSwitcher": {
     "locale": "{locale, select, pt {Português} en {Ingles} other {Desconhecido}}"

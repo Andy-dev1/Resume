@@ -19,20 +19,10 @@ const BigProject = () => {
         </div>
         
         <div className="max-w-[962px] mx-auto mt-24">
-          <h3 className="text-2xl font-bold">Projeto de automação sisu</h3>
-          <p className="mt-5">
-            Desenvolvi uma aplicação desktop utilizando o framework Wails.js,
-            com React.js no front-end e Golang no back-end, além do
-            armazenamento de dados com SQLite. <br />
-            <br />
-            Esta aplicação é projetada para gerenciar e distribuir alunos
-            aprovados pelo processo seletivo SISU, bem como criar chamadas para
-            os alunos selecionados. <br />
-            <br />O uso dessas tecnologias permitiu a criação de uma solução
-            eficiente, segura e de alto desempenho, aprimorando
-            significativamente o processo de gestão e seleção de alunos,
-            substituindo totalmente a utilização do excel pela faculdade.
-          </p>
+          <h3 className="text-2xl font-bold">{t('title')}</h3>
+          <p className="mt-5" dangerouslySetInnerHTML={{ __html: t.raw("text") }} />
+           
+          
         </div>
       </div>
     </section>
